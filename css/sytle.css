@@ -231,6 +231,89 @@ main {
     height: 191px;
 }
 
+/* sobre mim */
+.sobre-mim {
+    height: 98vh;
+    width: 99.3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    transition: 0.5s ease-in-out;
+}
+.head:hover {
+    color: gray;
+}
+
+.titulo {
+    width: 50vw;
+    height: 30vh;
+    background-color: #6E008D;
+    color: white;
+    border-radius: 10px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.titulo p {
+    margin-top: 35px;
+    color: yellow;
+}
+
+.barra {
+    width: 3px;
+    height: 13vh;
+    background-color: #6E008D;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.brr {
+    display: flex;
+}
+
+.barras {
+    background-color: #6E008D;
+    width: 10vw;
+    height: 4px;
+    margin: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.experiencia {
+    height: 30vh;
+    width: 37vw;
+    background-color: #6E008D;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-top: 15px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.experiencia h3 {
+    margin-top: 25px;
+    color: yellow;
+}
+
 /* Rodapé */
 
 footer {
@@ -327,12 +410,15 @@ footer {
 }
 
 
+
 /* Sessão responsivo */
 
-@media (min-width: 150px) and (max-width: 450px) {
+@media (min-width: 150px) and (max-width: 750px) {
 
     body {
         background-color: #fff;
+        height: 100vh;
+        width: 20vw;
     }
     header{
         display: none;
@@ -360,6 +446,9 @@ footer {
         font-size: 20px;
     }
     footer {
+        display: none;
+    }
+    .sobremim {
         display: none;
     }
 }

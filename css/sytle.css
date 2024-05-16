@@ -314,6 +314,12 @@ main {
     color: yellow;
 }
 
+.data {
+    position: relative;
+    top: 4vh;
+    left: 15vw;
+}
+
 /* Rodapé */
 
 footer {
